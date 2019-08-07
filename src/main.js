@@ -10,3 +10,10 @@ new Vue({
   store,
   render: h => h(App)
 }).$mount("#app");
+
+export default function(Vue, { head }) {
+  head.link.push({
+    rel: "stylesheet",
+    href: "https://fonts.googleapis.com/css?family=Raleway:900&display=swap"
+  });
+}

@@ -1,31 +1,54 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view />
+    <topmenu />
+    <transition name="fade">
+      <router-view :key="$route.fullPath" />
+    </transition>
+    <MainNav />
+    <circlemenu />
   </div>
 </template>
 
-<style>
-#app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-#nav {
-  padding: 30px;
+<script>
+import circlemenu from "./components/circlemenu.vue";
+import topmenu from "./components/topmenu.vue";
+import MainNav from "./components/main-nav.vue";
+
+export default {
+  name: "app",
+  components: {
+    circlemenu,
+    topmenu,
+    MainNav
+  },
+  data: function() {
+    return {
+      animationType: ""
+    };
+  },
+  watch: {
+    $route(to, from) {
+      // console.log(from);
+    }
+  }
+};
+</script>
+
+<style lang="scss">
+@import "assets/css/style.css";
+
+.fade-enter-active,
+.fade-leave-active {
+  transition-property: opacity;
+  transition-duration: 0.25s;
 }
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
+.fade-enter-active {
+  transition-delay: 0.25s;
 }
 
-#nav a.router-link-exact-active {
-  color: #42b983;
+.fade-enter,
+.fade-leave-active {
+  opacity: 0;
 }
 </style>

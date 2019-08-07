@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="452px" height="159px" viewBox="0 0 452 159" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Main" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-498.000000, -458.000000)">
+            <g id="Group" transform="translate(490.000000, 428.000000)">
+                <rect id="Rectangle-3" fill="#FF3268" fill-rule="nonzero" x="119" y="144" width="341" height="45"></rect>
+                <text id="MITCH" font-family="Raleway-Black, Raleway" font-size="133" font-weight="700" letter-spacing="8.57999992" fill="#FFFFFF">
+                    <tspan x="0" y="125">MITC</tspan>
+                    <tspan x="363.495" y="125" letter-spacing="0.0799999982">H</tspan>
+                </text>
+                <text id="FRONT-ENDDEVELOPER" font-family="Raleway-Black, Raleway" font-size="25" font-weight="700" letter-spacing="0.0799999982" fill="#FFFFFF">
+                    <tspan x="140" y="175">FRONT-EN</tspan>
+                    <tspan x="267.79" y="175" letter-spacing="8.57999992">D</tspan>
+                    <tspan x="294.27" y="175">DEVELOPER</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

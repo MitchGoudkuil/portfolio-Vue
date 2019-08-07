@@ -1,0 +1,60 @@
+{
+  "0": {
+    "Title": "Overhoorbot",
+    "Link": "/frontend/overhoorbot",
+    "Image": "bot-overh.jpg",
+    "Descr": "A website that works together with the google assistant to help blind students learn words.",
+    "GhLink": ""
+  },
+  "1": {
+    "Title": "PokeSearch",
+    "Link": "/frontend/pokesearch",
+    "Image": "pokemon.png",
+    "IntDescr": "For the minor web development we had to get used to working with an API. How to fetch data and render this on the page. I chose an API with a theme of something that I used to like very much, Pokemon.",
+    "Descr": "A web application build to get used to API's. Async functions and javascript modules.",
+    "Course": "Web app from scratch",
+    "GhLink": ""
+  },
+  "2": {
+    "Title": "Css to the rescue",
+    "Link": "frontend/cssres",
+    "Image": "css-small.jpg",
+    "Descr": "A small menu website in which I had to exploit css to the max. ",
+    "GhLink": ""
+  },
+  "3": {
+    "Title": "Robin Embrace",
+    "Link": "frontend/embrace",
+    "Image": "emb-design.png",
+    "Descr": "A website build for Robin Embrace",
+    "GhLink": ""
+  },
+  "4": {
+    "Title": "MumbleRun",
+    "Link": "frontend/mumblerun",
+    "Image": "mum-design.jpg",
+    "Descr": "A website on which users can gamle on their favorite mumble rapper.",
+    "GhLink": ""
+  },
+  "5": {
+    "Title": "Frontend Data",
+    "Link": "frontend/frontenddata",
+    "Image": "dis-ney2.jpg",
+    "Descr": "A data visualisation made with D3 about disney books in the OBA.",
+    "GhLink": ""
+  },
+  "6": {
+    "Title": "UX Podcast",
+    "Link": "frontend/ux-podcast",
+    "Image": "ux-design.png",
+    "Descr": "I made a website on which Marie, who is deaf, can see a sound only podcast.",
+    "GhLink": ""
+  },
+  "7": {
+    "Title": "Meetingrooms",
+    "Link": "frontend/meetingrooms",
+    "Image": "mir-designsmall.png",
+    "Descr": "Small Application build for Mirabeau. All meetingrooms shown based on data from sensors",
+    "GhLink": ""
+  }
+}

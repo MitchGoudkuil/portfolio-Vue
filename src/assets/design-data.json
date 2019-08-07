@@ -1,0 +1,34 @@
+{
+  "0": {
+    "Title": "Transavia",
+    "Link": "/design/transavia",
+    "Image": "transavia.jpg",
+    "BImage": "design/transavia.png",
+    "SDescr": "A school project in which we had to design and build a website for Transavia",
+    "BDescr": ""
+  },
+  "1": {
+    "Title": "Sneakers",
+    "Link": "/design/sneakers",
+    "Image": "sneakers.jpg",
+    "BImage": "design/muur.jpg",
+    "SDescr": "A collection of Nike airmax 1 posters",
+    "BDescr": "To achieve a study directing point, me and a friend set up a project to make a set of 5 posters where we worked on skills such as product photography, illustration and composition. The theme of the posters was sneakers, by means of illustration we wanted to bring the story behind the more exclusive pairs of Nike air max 1 to the fore."
+  },
+  "2": {
+    "Title": "Meerpaaldagen afterparty",
+    "Link": "/design/mpd",
+    "Image": "mpd-design.jpg",
+    "BImage": "",
+    "SDescr": "Posters and designs made for a returning event.",
+    "BDescr": "At the start of my studies I became a member of study association Iamcore and I joined the PR team. My job in the PR team was to design posters and flyers for the upcoming parties that were organized by Iamcore. Alongside are the 5 posters that I designed during my PR year."
+  },
+  "3": {
+    "Title": "Iamcore",
+    "Link": "/design/iamcore",
+    "Image": "iamcore.jpg",
+    "BImage": "design/muur.jpg",
+    "SDescr": "Posters made for the study association IAmCore",
+    "BDescr": "At the start of my studies I became a member of study association Iamcore and I joined the PR team. My job in the PR team was to design posters and flyers for the upcoming parties that were organized by Iamcore. Alongside are the 5 posters that I designed during my PR year."
+  }
+}
