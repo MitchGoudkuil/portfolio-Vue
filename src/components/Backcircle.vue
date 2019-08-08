@@ -27,7 +27,8 @@ export default {
       this.$route.name === "Ux-Podcast" ||
       this.$route.name === "ObaDisneybooks" ||
       this.$route.name === "meetingrooms" ||
-      this.$route.name === "embrace"
+      this.$route.name === "embrace" ||
+      this.$route.name === "wijncenter"
     ) {
       this.backLink = "/frontend";
     } else if (

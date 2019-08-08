@@ -74,7 +74,7 @@ export default {
 @media only screen and (min-width: 1024px) {
   .bottom-info-block {
     &__middle {
-      width: 50%;
+      width: 40%;
     }
   }
 }

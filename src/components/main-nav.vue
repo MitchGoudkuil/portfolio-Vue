@@ -91,7 +91,9 @@ export default {
         to.name === "transavia" ||
         to.name === "iamcore" ||
         to.name === "sneakers" ||
-        to.name === "mpd"
+        to.name === "mpd" ||
+        to.name === "embrace" ||
+        to.name === "wijncenter"
       ) {
         this.rightLink = "";
         this.rightLinkText = "";
@@ -161,7 +163,9 @@ export default {
         this.$route.name === "transavia" ||
         this.$route.name === "iamcore" ||
         this.$route.name === "sneakers" ||
-        this.$route.name === "mpd"
+        this.$route.name === "mpd" ||
+        this.$route.name === "embrace" ||
+        this.$route.name === "wijncenter"
       ) {
         this.rightLink = "";
         this.rightLinkText = "";

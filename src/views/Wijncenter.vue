@@ -5,6 +5,7 @@
     <div class="pokedex--padding">
       <div class="main-block">
         <TitleImageBlock :titleData="titleData" />
+        <bottomInfoBlock :blockInfoData="blockInfoData" />
       </div>
     </div>
   </section>
@@ -13,32 +14,41 @@
 <script>
 import BackCircle from "../components/Backcircle.vue";
 import TitleImageBlock from "../components/title-image-block.vue";
+import bottomInfoBlock from "../components/bottomInfoBlock.vue";
 
 export default {
   name: "portfolio",
+
   data() {
     return {
       titleData: [
         {
-          title: "Oba Disney Books",
-          smallTitle: "A data visualisation",
-          subTitle: "The project",
+          title: "Wijncenter Nederland",
+          smallTitle: "A webshop build with wordpress and woocommerce.",
+          subTitle: "",
           text:
-            "I followed a course called data visualization in which we learned how to retrieve data, find funny points of contact and how to visualize this. I made a visualization for the library of Amsterdam about the disney books through the years. Through the OBA api we were able to retrieve the data and visualize this through D3.",
-          ghLink: "http://mitchgoudkuil.nl/school/frontend-data/",
-          linkText: "Show visualisation",
-          imageName: "dis-ney.jpg",
+            "Wijncenter Nederland is an online webshop with wines from the Mont-Ventoux region. Wijncenter Nederland offers a wide, luxury assortment for an affordable price.",
+          ghLink: "http://www.wijncenternederland.nl/",
+          linkText: "Wijncenter Nederland",
           link: true,
-          imageAlt:
-            "Image of the data visualisation made out of the data from disney books in the public library in Amsterdam.",
-          id: 5
+          imageName: "wijn-big.jpg",
+          imageAlt: "Image of the pokemon screen ",
+          id: 2
+        }
+      ],
+      blockInfoData: [
+        {
+          title: "technology",
+          text:
+            "The website is build with Wordpress and woocommerce. I picked this combination because the client wanted an easy way to adjust the content in the store and on every page. The website was my first introduction to webshops and I learned a lot about wordpress in the progress."
         }
       ]
     };
   },
   components: {
     BackCircle,
-    TitleImageBlock
+    TitleImageBlock,
+    bottomInfoBlock
   },
   beforeCreate() {
     document.body.className = "subject";
@@ -62,17 +72,13 @@ export default {
     color: #9744fa;
   }
 
-  p {
-    margin-bottom: 1rem;
-  }
-
   &--padding {
     padding: 4rem;
     padding-top: 8rem;
   }
 
   &__second {
-    display: flex;
+    display: block;
     align-items: center;
 
     img {
@@ -80,28 +86,8 @@ export default {
     }
 
     .right {
-      padding-left: 2em;
-    }
-  }
-
-  &__third {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #1d1d1d;
-    padding: 2rem;
-    border-radius: 2em;
-
-    h4 {
-      color: #fff;
-    }
-
-    p {
-      color: #fff;
-    }
-
-    .middle {
-      width: 100%;
+      padding-left: 0em;
+      margin-top: 1rem;
     }
   }
 
@@ -151,19 +137,16 @@ h4 {
       }
 
       .right {
+        padding-left: 2em;
         margin-top: 0rem;
-        width: 40%;
-      }
-      .left {
-        margin-top: 0rem;
-        width: 60%;
       }
     }
+
     &--padding {
       padding: 8rem;
     }
     .middle {
-      width: 30%;
+      width: 40%;
     }
   }
 }

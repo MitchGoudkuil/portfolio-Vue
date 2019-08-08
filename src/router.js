@@ -11,6 +11,7 @@ import Error from "./views/Error.vue";
 
 // Detail import
 import Sneakers from "./views/Sneakers.vue";
+import WCenter from "./views/Wijncenter.vue";
 import Transavia from "./views/Transavia.vue";
 import Mpd from "./views/Mpd.vue";
 import Iamcore from "./views/Iamcore.vue";
@@ -128,6 +129,11 @@ export default new Router({
       path: "/frontend/embrace",
       name: "embrace",
       component: Embrace
+    },
+    {
+      path: "/frontend/wijncenter",
+      name: "wijncenter",
+      component: WCenter
     }
   ]
 });
