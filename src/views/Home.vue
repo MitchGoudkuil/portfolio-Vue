@@ -275,7 +275,7 @@ export default {
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1220px) {
   h2 {
     font-size: 1em;
   }

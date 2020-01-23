@@ -202,7 +202,8 @@ a {
   font-family: "AvenirNextLTProRegular";
 }
 
-a:visited {
+a:visited,
+a:active {
   color: #000;
 }
 

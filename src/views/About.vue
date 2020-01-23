@@ -31,7 +31,7 @@
           Why so serious?
         </button>
         <div :class="{ turn: turned }" class="image-block">
-          <img src="../assets/mitch-wit.jpg" alt="" />
+          <img src="../assets/mitch-wit2.jpg" alt="" />
           <img
             :class="{ grow: grow }"
             class="mustache"
@@ -304,7 +304,7 @@ export default {
 
   .mustache {
     position: absolute;
-    left: 4.4em;
+    left: 5.7em;
     top: 9em;
     width: 60px;
     -webkit-transition: all 300ms cubic-bezier(0.93, 0.01, 0.27, 1);
@@ -321,7 +321,7 @@ export default {
 
   .piratehat {
     position: absolute;
-    left: 3.4em;
+    left: 3em;
     top: 1em;
     width: 185px;
     -webkit-transition: all 500ms cubic-bezier(0.93, 0.01, 0.27, 1);
@@ -338,8 +338,8 @@ export default {
 
   .monocle {
     position: absolute;
-    left: 6.7em;
-    top: 6.3em;
+    left: 5.8em;
+    top: 6.7em;
     width: 95px;
     -webkit-transition: all 500ms cubic-bezier(0.93, 0.01, 0.27, 1);
     -webkit-transition: all 500ms cubic-bezier(0.93, 0.01, 0.27, 1.65);
@@ -355,8 +355,8 @@ export default {
 
   .chain {
     position: absolute;
-    left: 5.7em;
-    top: 12.1em;
+    left: 5.9em;
+    top: 11.9em;
     width: 111px;
     -webkit-transition: all 500ms cubic-bezier(0.93, 0.01, 0.27, 1);
     -webkit-transition: all 500ms cubic-bezier(0.93, 0.01, 0.27, 1.65);

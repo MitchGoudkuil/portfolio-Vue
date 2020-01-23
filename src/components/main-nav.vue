@@ -179,6 +179,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.link {
+  border-bottom-color: rgb(0, 0, 0);
+}
 .main-nav {
   display: flex;
 
